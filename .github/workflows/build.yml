@@ -42,48 +42,46 @@ jobs:
         with:
             payload: |
                {
-                      "text": "CICD WorkShop by Wu Kai",
-                      "blocks": [
+                "text": "CICD WorkShop by WangYibing",
+                "blocks": [
+                  {
+                    "type": "section",
+                    "fields": [
                       {
-                        "type": "section",
-                        "text": {
                         "type": "mrkdwn",
-                        "text": "Name : WangYibing"
-                        }
+                        "text": "Name : \nWangYibing"
                       },
                       {
-                        "type": "section",
-                        "text": {
                         "type": "mrkdwn",
-                        "text": "Matriculation Number : A0287200M"
-                        }
-                      },
-                      {
-                        "type": "section",
-                        "text": {
-                        "type": "mrkdwn",
-                        "text": "Email : e1208075@u.nus.edu"
-                        }
-                      },
-                      {
-                        "type": "section",
-                        "fields": [
-                        {
-                          "type": "mrkdwn",
-                          "text": "Repository : https://github.com/WangYiBng/dipsa41ccicd.git"
-                        }
-                        ]
-                      },
-                      {
-                        "type": "section",
-                        "fields": [
-                        {
-                          "type": "mrkdwn",
-                          "text": "Deployment URL : https://dipsa41ccicd-production-f10a.up.railway.app/"
-                        }
-                        ]
+                        "text": "\t Matriculation: \nA0287200M"
                       }
-                      ]
+                    ]
+                  },
+
+                  {
+                    "type": "section",
+                    "fields": [
+                      {
+                        "type": "mrkdwn",
+                        "text": "Email : \ne1208075@u.nus.edu"
+                      },
+                      {
+                        "type": "mrkdwn",
+                        "text": "\t Repository: \nhttps://github.com/WangYiBng/dipsa41ccicd.git"
+                      }
+                    ]
+                  },
+
+                  {
+                    "type": "section",
+                    "fields": [
+                      {
+                        "type": "mrkdwn",
+                        "text": "Deployment URL : https://dipsa41ccicd-production-f10a.up.railway.app/"
+                      }
+                    ]
+                  }
+                    ]
                     }
 
 
